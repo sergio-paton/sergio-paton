@@ -2,14 +2,14 @@
 *&  Include           ZMESSAGES
 *&---------------------------------------------------------------------*
 * #SRG 05/06/2012. Include con rutinas para gestionar los mensajes
-* usando el módulo de funciones SMSG.
+* usando el mÃ³dulo de funciones SMSG.
 *
 * 1) Ejecutamos PERFORM messages_active.
 * 2) Vamos introduciendo los mensajes com PERFORM message_store ...
 * Ejemplo1:
 *       Mensaje de Error de la Clase ZBAS
 *      "Campo '&' es obligatorio.
-*      PERFORM message_store USING 'E' 'ZBAS' '003'  'Número de envío' '' '' ''.
+*      PERFORM message_store USING 'E' 'ZBAS' '003'  'NÃºmero de envÃ­o' '' '' ''.
 *
 * Ejemplo2:
 *    Mensaje desde error "estandar".
@@ -19,7 +19,7 @@
 * 3) Los mostramos PERFORM messages_show.
 *
 *
-data: gl_message_exist type c."Si se ha insertado algún mensaje.
+data: gl_message_exist type c."Si se ha insertado algÃºn mensaje.
 *&---------------------------------------------------------------------*
 *&      Form  message_store
 *&---------------------------------------------------------------------*
